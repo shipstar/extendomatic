@@ -1,7 +1,11 @@
 require "rails"
 
 module Extendomatic
-  Dir["extensions/*.rb"].each do |file|
-    require file
+  class Railtie < ::Rails::Railtie
+    config.after_initialize do
+      Dir[File.dirname(File.expand_path(__FILE__)) + "/extensions/*.rb"].each do |file|
+        require file
+      end
+    end
   end
 end

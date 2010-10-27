@@ -1,4 +1,4 @@
-module EnumerableExtensions
+module Enumerable
   def compact_blank
     reject {|e| e.blank?}
   end
@@ -10,5 +10,3 @@ module EnumerableExtensions
     end
   end
 end
-
-Enumerable.send(:include, EnumerableExtensions)
