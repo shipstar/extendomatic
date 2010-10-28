@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'  
 require 'echoe'  
   
-Echoe.new('extendomatic', '0.2.1') do |p|
+Echoe.new('extendomatic', '0.2.2') do |p|
   p.description     = "Mix in a bunch of crazy methods (like accumulate, not, and compact_blank)"
   p.url             = "http://github.com/shipstar/extendomatic"
   p.author          = "Kyle Shipley"

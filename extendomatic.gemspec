@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{extendomatic}
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kyle Shipley"]
-  s.date = %q{2010-10-26}
+  s.date = %q{2010-10-28}
   s.description = %q{Mix in a bunch of crazy methods (like accumulate, not, and compact_blank)}
   s.email = %q{shipstar@gmail.com}
-  s.extra_rdoc_files = ["README", "lib/extendomatic.rb", "lib/extensions/assertions_extensions.rb", "lib/extensions/enumerable_extensions.rb", "lib/extensions/number_helper_extensions.rb", "lib/extensions/object_extensions.rb", "extendomatic.gemspec"]
-  s.files = ["README", "Rakefile", "lib/extendomatic.rb", "lib/extensions/assertions_extensions.rb", "lib/extensions/enumerable_extensions.rb", "lib/extensions/number_helper_extensions.rb", "lib/extensions/object_extensions.rb", "Manifest", "extendomatic.gemspec"]
+  s.extra_rdoc_files = ["README", "extendomatic.gemspec", "lib/extendomatic.rb", "lib/extensions/assertions_extensions.rb", "lib/extensions/enumerable_extensions.rb", "lib/extensions/number_helper_extensions.rb", "lib/extensions/object_extensions.rb"]
+  s.files = ["README", "Rakefile", "extendomatic.gemspec", "lib/extendomatic.rb", "lib/extensions/assertions_extensions.rb", "lib/extensions/enumerable_extensions.rb", "lib/extensions/number_helper_extensions.rb", "lib/extensions/object_extensions.rb", "Manifest"]
   s.homepage = %q{http://github.com/shipstar/extendomatic}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Extendomatic", "--main", "README"]
   s.require_paths = ["lib"]
