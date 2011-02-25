@@ -1,6 +1,6 @@
 module Enumerable
   def compact_blank
-    reject {|e| e.blank?}
+    reject {|k,v| v.blank?}
   end
 
   def accumulate(initial, &block)
